@@ -54,7 +54,7 @@ The solution is two independent PID loops whose outputs are summed with opposing
 totalOutput = -arm_output + pend_output
 ```
 
-**Pendulum PID** — high gain, keeps the pendulum upright at 185°
+**Pendulum PID** — high gain, keeps the pendulum upright at 180°
 **Arm PID** — lower gain, prevents the arm from spinning out of range
 
 Key implementation details:
