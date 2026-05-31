@@ -129,8 +129,6 @@ pid-mujoco-furuta-pendulum/
 
 ---
 
-## Author
-
-Soham Dave - Grade 11 Student
+## Contact Me
 
 📧 davesoh929@gmail.com | [GitHub](https://github.com/sohamdave95) | [Medium](https://medium.com/@davesoh929)
