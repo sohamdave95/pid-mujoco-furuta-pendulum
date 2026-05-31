@@ -2,7 +2,7 @@
 
 A fully custom-built Furuta pendulum — designed, 3D printed, wired, and programmed from scratch. Balanced using a dual parallel PID control loop, with a MuJoCo digital twin used to pre-tune gains before real hardware deployment.
 
-**95% sim-to-real accuracy.** Built in ~4 weeks with no formal engineering training.
+**sim-to-real accuracy. (with some mild scaling)** Built in ~4 weeks with no formal engineering training.
 Received **1.2K+** views on YouTube.
 
 📝 [Full engineering write-up on Medium](https://medium.com/@davesoh929/exploring-the-master-of-control-systems-furuta-2c28d4e2d2b4)
