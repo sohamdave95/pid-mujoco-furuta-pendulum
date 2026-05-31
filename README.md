@@ -81,7 +81,7 @@ Before touching real hardware, I built a complete digital twin in MuJoCo — imp
 **Why this mattered:**
 - Tuned PID gains in simulation first — safe and fast iteration
 - Identified coupling behavior between arm and pendulum loops
-- Achieved **95% sim-to-real transfer accuracy** on final gain set
+- Achieved **sim-to-real transfer accuracy** on final gain set
 - Took 20+ hours to get the simulation working correctly
 
 The simulation uses the same PID class logic as the firmware, written in Python with the MuJoCo library.
