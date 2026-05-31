@@ -116,7 +116,7 @@ pid-mujoco-furuta-pendulum/
 
 | Metric | Value |
 |---|---|
-| Total hours | 150–200 |
+| Total hours | 100-125 |
 | CAD time | 50+ hours |
 | Print time | 30+ hours |
 | Filament used | ~500g total (prototypes + final) |
