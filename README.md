@@ -7,6 +7,10 @@ Received **1.2K+** views on YouTube.
 
 📝 [Full engineering write-up on Medium](https://medium.com/@davesoh929/exploring-the-master-of-control-systems-furuta-2c28d4e2d2b4)
 
+<p align="center">
+  <img src="pend.gif" alt="Working Pendulum" width="600"/>
+</p>
+
 ---
 
 ## What is a Furuta Pendulum?
