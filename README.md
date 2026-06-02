@@ -2,7 +2,7 @@
 
 A fully custom-built Furuta pendulum — designed, 3D printed, wired, and programmed from scratch. Balanced using a dual parallel PID control loop, with a MuJoCo digital twin used to pre-tune gains before real hardware deployment.
 
-**95% sim-to-real accuracy.** Built in ~4 weeks with no formal engineering training.
+**sim-to-real accuracy. (with some mild scaling)** Built in ~4 weeks with no formal engineering training.
 Received **1.2K+** views on YouTube.
 
 📝 [Full engineering write-up on Medium](https://medium.com/@davesoh929/exploring-the-master-of-control-systems-furuta-2c28d4e2d2b4)
@@ -54,7 +54,7 @@ The solution is two independent PID loops whose outputs are summed with opposing
 totalOutput = -arm_output + pend_output
 ```
 
-**Pendulum PID** — high gain, keeps the pendulum upright at 185°
+**Pendulum PID** — high gain, keeps the pendulum upright at 180°
 **Arm PID** — lower gain, prevents the arm from spinning out of range
 
 Key implementation details:
@@ -81,7 +81,7 @@ Before touching real hardware, I built a complete digital twin in MuJoCo — imp
 **Why this mattered:**
 - Tuned PID gains in simulation first — safe and fast iteration
 - Identified coupling behavior between arm and pendulum loops
-- Achieved **95% sim-to-real transfer accuracy** on final gain set
+- Achieved **sim-to-real transfer accuracy** on final gain set
 - Took 20+ hours to get the simulation working correctly
 
 The simulation uses the same PID class logic as the firmware, written in Python with the MuJoCo library.
@@ -116,7 +116,7 @@ pid-mujoco-furuta-pendulum/
 
 | Metric | Value |
 |---|---|
-| Total hours | 150–200 |
+| Total hours | 100-125 |
 | CAD time | 50+ hours |
 | Print time | 30+ hours |
 | Filament used | ~500g total (prototypes + final) |
