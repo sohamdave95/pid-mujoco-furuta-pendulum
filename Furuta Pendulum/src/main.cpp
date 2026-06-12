@@ -13,8 +13,7 @@ const float pendOffset = 74;
 const int clock =  25 // CLK ENCODER 
 const int data  = 26 // DT ENCODER 
 const int deadzone = 55; // my dc motor doesn't move until a minimum of 55 is applied on the analogWrite
-const int clock =  25 // CLK ENCODER 
-const int data  = 26 // DT ENCODER
+
 
 unsigned long lastLoopTime = 0; // using a variable here to keep the poll rate (hertz), always constant to keep dt stable
 
